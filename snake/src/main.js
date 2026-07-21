@@ -1,7 +1,9 @@
-import './style.css'
+import { Game } from "./game.js"
 
-const canvas = document.getElementById("game");
-const box = canvas.getContext("2d");
+const startButton = document.getElementById("menu");
+const game = new Game();
 
-box.fillStyle = "green";
-box.fillRect(250, 250, 20, 20); //(x, y, w, h)
+startButton.addEventListener("click", () => {
+    startButton.style.display = "none";
+    game.start();
+});
