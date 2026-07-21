@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: #202020;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
+  font-size: 46px;
+  letter-spacing: -1.68px;
+  margin: 16px 0;
+}
+
+#app {
+  padding: 20px;
+}
+
+canvas {
+  border: 2px solid white;
+  background-color: black;
+}
